@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "chrome-extension: password field cracker",
+  "description": "A chrome extension to display/hide the text of password input field.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_title": "Crack it!"
+  },
+  "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
